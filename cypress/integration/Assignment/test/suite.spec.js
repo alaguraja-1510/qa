@@ -34,7 +34,7 @@ it('Testcase 5: Check whether able to select Start Date as a Present(31/5/23) an
         DRP.date_on_may();
         DRP.date_on_june();
     });
-it.only('Testcase 6: Check whether able to select Start Date as a Past(30/4/23) and End Date as past date(31/3/23)', () => 
+it('Testcase 6: Check whether able to select Start Date as a Past(30/4/23) and End Date as past date(31/3/23)', () => 
     {
         DRP.start_date();
         DRP.left_arrow();
